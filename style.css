@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Varela+Round&display=swap');
+
+
+/* Inicio Menu Responsivo */
+body,
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+a:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+#logo {
+  font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.n-logo {
+    color: #0267C1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.euttron-logo {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#header {
+  box-sizing: border-box;
+  height: 40px;
+/*  padding: 1rem;  Acho que é isso que estava fazendo ficar com um pequeno espaço do lado direito no celular*/
+  display: flex;
+  align-items: center;
+  background: none;
+}
+
+.iniciar-sessao {
+    margin-left: auto;
+}
+
+#menu {
+  display: flex;
+  list-style: none;
+  gap: 0.8rem;
+  padding-top: 1rem;
+  margin-right: 8vw;
+}
+
+#menu a {
+  display: block;
+  padding: 0.5rem;
+}
+
+#btn-mobile {
+  display: none;
+}
+
+@media (max-width: 852px) {
+  #menu {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 64px;
+    right: 0px;
+    background: #1b1b1b;
+    transition: 0.6s;
+    z-index: 1000;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
+    margin-right: 0vw;
+  }
+  #nav.active #menu {
+    height: calc(100vh - 60px);
+    visibility: visible;
+    overflow-y: auto;
+  }
+  #menu a {
+    padding: 1rem 0;
+    margin: 0 1rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+  }
+  #btn-mobile {
+    display: flex;
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    background: #1b1b1b;
+    cursor: pointer;
+    gap: 0.5rem;
+    border-radius: 3px;
+    border: 2px solid #797878;
+  }
+  #hamburger {
+      color: #1666d8;
+    border-top: 4px solid;
+    width: 30px;
+    border-radius: 0.5px;
+  }
+  #hamburger::after,
+  #hamburger::before {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 4px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: 0.3s;
+    position: relative;
+    border-radius: 0.5px;
+  }
+  #nav.active #hamburger {
+    border-top-color: transparent;
+  }
+  #nav.active #hamburger::before {
+    transform: rotate(135deg);
+  }
+  #nav.active #hamburger::after {
+    transform: rotate(-135deg);
+    top: -9px;
+  }
+}
+        /* Fim Menu Responsivo */
+
+
+        
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p,a{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-family: 'Varela Round', sans-serif;
+}
+h2{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.5rem !important;
+}
+h3{
+    font-family: 'Varela Round', sans-serif;
+    color: #1b1b1b;
+    font-size: 2rem !important;
+}
+
+
+        /* Cabeçalho */
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0 12px 0;
+    position: fixed;
+    width: 100vw;
+    background-color: rgba(27, 27, 27, 0.5);
+    padding-left: 8.7vw;
+}
+.cabecalho-logo{
+    height: 48px;
+    
+}
+@media (max-width: 852px) {
+    .cabecalho{
+        background-color: #1b1b1b;
+        width: 100vw;
+        padding-left: 0;
+    }
+    .cabecalho-logo{
+        padding-left: 8px;
+        margin-left: 2px;
+        height: 48px;
+    }
+}
+.cabecalho-menu-item{
+    text-decoration: none;
+    color: #f1f1f1;
+}
+.cabecalho-menu-item:hover{
+    color: #1666d8;
+    border-radius: 4px;
+}
+
+
+
+
+        /* Início */
+
+
+.background-inicio{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(assets/imagens/img-background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top;
+
+}
+.conteudo-inicio{
+    text-align: center;
+    color: #f1f1f1;
+}
+.conteudo-inicio-titulo{
+    font-size: 70px;
+    margin-top: 20vh;
+}
+@media (max-width: 852px) {
+    .conteudo-inicio-titulo{
+        margin-top: 15vh;
+    }
+}
+.conteudo-inicio-paragrafo{
+    font-size: 16px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#conteudo-inicio-botao{
+    border-radius: 5.5px;
+    box-shadow: 7px 15px 18px black;
+}
+
+
+
+
+        /* Nossos Serviços */
+
+.nossos-servicos-titulo {
+    padding-top: 90px;
+    color: #f1f1f1;
+    font-size: 45px;
+    text-align: center;
+}
+.nossos-servicos-cards,
+.nossos-pacotes-cards {
+    text-align: center;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+}
+.nossos-servicos-cards-icones{
+    margin-right: 10px;
+}
+.fundo-nossos-servicos,
+.fundo-nossos-pacotes {
+    padding-bottom: 40px;
+}
+
+
+
+
+        /* Nossos Pacotes */
+
+.fundo-pacotes{
+    background-color: #ffffff;
+    
+}
+.nossos-pacotes-titulo {
+    padding-top: 90px;
+    color: #1b1b1b;
+    font-size: 45px;
+    text-align: center;
+}
+.nossos-pacotes-subtitulo{
+    color: #1b1b1b;
+    text-align: center;
+}
+.nossos-pacotes-cards-titulo{
+    color: #1b1b1b;
+    margin: 8px 0 16px !important;
+}
+.nossos-pacotes-cards-valores{
+    font-size: 2.7rem;
+    line-height: -16px;
+    font-family: 'Varela Round', sans-serif;
+}
+.nossos-pacotes-cards-subtitulo{
+    font-size: 16px;
+    color: #797878;
+    margin: 0 0 24px !important;
+}
+
+.nossos-pacotes-cards-icone-check{
+    margin-right: 12px;
+    height: 19px;
+    margin-top: 5px;
+}
+.nossos-pacotes-cards-icone-x{
+    margin-left: 3px;
+    margin-right: 15px;
+    height: 21px;
+    margin-top: 5px;
+}
+.nossos-pacotes-cards-texto{
+    display: flex;
+    text-align: left;
+    margin: 24px;
+}
+
+
+
+        /* Email */
+        
+.fundo-email{
+    background-color: #161a1d;
+}
+.email{
+    text-align: center;
+    background-color: #161a1d;
+}
+.email-titulo{
+    padding: 40px 0 13px;
+    color: #f1f1f1;
+}
+.email-botao-enviar{
+    margin: 20px;
+}
+
+
+
+        /* Whats */
+
+.fundo-whatsapp{
+    background-color: #f1f1f1;
+}
+.whatsapp{
+    text-align: center;
+    background-color: #f1f1f1;
+}
+.whatsapp-titulo{
+    padding: 40px;
+}
+.whatsapp-icone{
+    padding-right: 10px;
+    width: 46px;
+}
+.btn-dark{
+    background-color: #0b090a !important;
+    font-size: 16px !important;
+    margin-bottom: 40px !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+        /* Rodapé */
+
+.fundo-rodape{
+    background-color: #161a1d;
+}
+.rodape{
+    text-align: center;
+}
+.rodape-icones{
+    margin-right: 12px;
+}
+.rodape-textos{
+    color: #f1f1f1;
+    font-size: 12px;
+}
+.copyright{
+    margin-bottom: 15px;
+}
