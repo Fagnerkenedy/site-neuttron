@@ -17,7 +17,10 @@ a {
 a:hover {
   background: rgba(0, 0, 0, 0.05);
 }
-
+span{
+margin: 0;
+padding: 0;
+}
 #logo {
   font-size: 1.5rem;
   font-family: 'Poppins', sans-serif;
@@ -29,6 +32,7 @@ a:hover {
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .euttron-logo {
@@ -36,6 +40,7 @@ a:hover {
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 #header {
@@ -203,7 +208,7 @@ h3{
 
 
 .background-inicio{
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(assets/imagens/img-background.jpg);
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(assets/imagens/backgroudSite.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: top;

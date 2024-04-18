@@ -93,13 +93,14 @@
 
         <div class="row cabecalho"> <!--Cabeçalho-->
             <header id="header">
-
-                <span class="n-logo">
-                    N
-                </span>
-                <span class="euttron-logo">
-                    euttron
-                </span>
+                <a href="#">
+                    <span class="n-logo">
+                        N
+                    </span>
+                    <span class="euttron-logo">
+                        euttron
+                    </span>
+                </a> 
 
                 <nav id="nav">
                     <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
@@ -128,13 +129,12 @@
 
             <div class="row"> <!--Início-->
                 <div class="conteudo-inicio col-md-7">
-                    <h1 class="conteudo-inicio-titulo">Alcance resultados nunca antes imaginados</h1>
-                    <p class="conteudo-inicio-paragrafo">Aumente suas vendas, alcance potenciais novos clientes e
-                        obtenha o reconhecimento que a sua empresa merece.
-                        Tenha um site de qualidade e que se adapta a qualquer tamanho de tela.</p>
-                    <a target="_blank"
-                        href="https://api.whatsapp.com/send/?phone=5545999792202&text=Ol%C3%A1%2C+tudo+bem%3F+Gostaria+de+pedir+um+or%C3%A7amento+sem+compromisso.&app_absent=0">
-                        <button class="btn btn-dark">Solicite um Orçamento</button>
+                    <h1 class="conteudo-inicio-titulo">Obtenha o controle e a rapidez que sua empresa merece.</h1>
+                    <p class="conteudo-inicio-paragrafo">Gerencie todos os processos da sua empresa, desde vendas até
+                        contas a pagar, obtenha relatórios e visualize gráficos de forma personalizada de acordo com o
+                        que a sua empresa precisa.</p>
+                    <a target="_blank" href="http://localhost:3000/cadastro">
+                        <button class="btn btn-dark">Comece sua avaliação gratuita</button>
                     </a>
                 </div>
             </div>
@@ -251,32 +251,28 @@
                     o que mais se adequa as suas necessidades.
                 </p>
 
-                <!-- Pacote Iniciante -->
+                <!-- Pacote gratuito -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="nossos-pacotes-cards">
                         <div class="card-body">
 
                             <h3 class="card-title nossos-pacotes-cards-titulo">
-                                Pacote Iniciante
+                                Pacote gratuito
                             </h3>
 
 
                             <p class="card-text nossos-pacotes-cards-texto"><img
-                                    class="nossos-pacotes-cards-icone-check" src="assets/imagens/check.png">1 Site One
-                                Page OU Landing Page</p>
+                                    class="nossos-pacotes-cards-icone-check" src="assets/imagens/green-check.png">1 usuário gratuito;</p>
                             <p class="card-text nossos-pacotes-cards-texto"><img class="nossos-pacotes-cards-icone-x"
-                                    src="assets/imagens/x.png">SEO do Google: Seu Site na primeira página do Google</p>
+                                    src="assets/imagens/green-check.png">Leads;</p>
                             <p class="card-text nossos-pacotes-cards-texto"><img class="nossos-pacotes-cards-icone-x"
-                                    src="assets/imagens/x.png">Criação de Logo para sua empresa</p>
+                                    src="assets/imagens/green-check.png">Empresas;</p>
                             <p class="card-text nossos-pacotes-cards-texto"><img class="nossos-pacotes-cards-icone-x"
-                                    src="assets/imagens/x.png">Planejamento e criação da Identidade Visual da sua
-                                empresa</p>
+                                    src="assets/imagens/green-check.png">Contatos;</p>
                             <p class="card-text nossos-pacotes-cards-texto"><img
-                                    class="nossos-pacotes-cards-icone-check" src="assets/imagens/check.png">Site
-                                completamente pensado e projetado de acordo com a sua necessidade</p>
+                                    class="nossos-pacotes-cards-icone-check" src="assets/imagens/green-check.png">Oportunidades;</p>
                             <p class="card-text nossos-pacotes-cards-texto"><img
-                                    class="nossos-pacotes-cards-icone-check" src="assets/imagens/check.png">Suporte
-                                grátis de 2 meses após a entrega do site para eventuais correções de bugs</p>
+                                    class="nossos-pacotes-cards-icone-check" src="assets/imagens/green-check.png">Negócios;</p>
                             <p class="card-text nossos-pacotes-cards-valores">
 
                             </p>
@@ -284,8 +280,44 @@
 
                             </p>
                             <a class="btn btn-dark" target="_blank"
-                                href="https://api.whatsapp.com/send/?phone=5545999792202&text=Ol%C3%A1%2C+estou+interessado+no+Pacote+Iniciante%2C+poderia+me+passar+mais+informa%C3%A7%C3%B5es%3F&app_absent=0"
-                                role="button">Solicitar Orçamento</a>
+                                href="http://localhost:3000/cadastro"
+                                role="button">Iniciar avaliação gratuita</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pacote Padrão -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="nossos-pacotes-cards">
+                        <div class="card-body">
+
+                            <h3 class="card-title nossos-pacotes-cards-titulo">
+                                Pacote Padrão
+                            </h3>
+                            <p class="card-text nossos-pacotes-cards-valores">
+                                R$59,99
+                            </p>
+                            <p class="card-text nossos-pacotes-cards-subtitulo">
+                                /usuário/mês cobrado anualmente
+                            </p>
+                            <p>
+                                R$95,00 mês a mês
+                            </p>
+                            <a class="btn btn-dark" target="_blank"
+                                href="http://localhost:3000/cadastro"
+                                role="button">Fazer upgrade</a>
+                            <p class="card-text nossos-pacotes-cards-texto"><img
+                                    class="nossos-pacotes-cards-icone-check" src="assets/imagens/green-check.png">Gráficos</p>
+                            <p class="card-text nossos-pacotes-cards-texto"><img
+                                    class="nossos-pacotes-cards-icone-check" src="assets/imagens/green-check.png">Módulos personalizados</p>
+                            <p class="card-text nossos-pacotes-cards-texto"><img class="nossos-pacotes-cards-icone-x"
+                                    src="assets/imagens/green-check.png">10 módulos customizados</p>
+                            <p class="card-text nossos-pacotes-cards-texto"><img class="nossos-pacotes-cards-icone-x"
+                                    src="assets/imagens/green-check.png">Campos personalizados</p>
+                            <p class="card-text nossos-pacotes-cards-texto"><img
+                                    class="nossos-pacotes-cards-icone-check" src="assets/imagens/green-check.png">Perfil de usuários</p>
+                            <p class="card-text nossos-pacotes-cards-texto"><img
+                                    class="nossos-pacotes-cards-icone-check" src="assets/imagens/green-check.png">20 horas grátis de consultoria e treinamento</p>
                         </div>
                     </div>
                 </div>
@@ -299,69 +331,31 @@
                                 Pacote Profissional
                             </h3>
                             <p class="card-text nossos-pacotes-cards-valores">
-                                199,99/mês
+                                R$299,99
                             </p>
                             <p class="card-text nossos-pacotes-cards-subtitulo">
-                                Em 10x no cartão de crédito
+                                /usuário/mês cobrado anualmente
                             </p>
                             <a class="btn btn-dark" target="_blank"
-                                href="https://api.whatsapp.com/send/?phone=5545999792202&text=Ol%C3%A1%2C+estou+interessado+no+Pacote+Profissional%2C+poderia+me+passar+mais+informa%C3%A7%C3%B5es%3F&app_absent=0"
+                                href="http://localhost:3000/cadastro"
                                 role="button">Contratar</a>
                             <p class="card-text nossos-pacotes-cards-texto"><img
-                                    class="nossos-pacotes-cards-icone-check" src="assets/imagens/check.png">1 Site
+                                    class="nossos-pacotes-cards-icone-check" src="assets/imagens/green-check.png">1 Site
                                 Completo</p>
                             <p class="card-text nossos-pacotes-cards-texto"><img
-                                    class="nossos-pacotes-cards-icone-check" src="assets/imagens/check.png">SEO do
-                                Google: Seu Site na primeira página do Google</p>
-                            <p class="card-text nossos-pacotes-cards-texto"><img class="nossos-pacotes-cards-icone-x"
-                                    src="assets/imagens/x.png">Criação de Logo para sua empresa</p>
-                            <p class="card-text nossos-pacotes-cards-texto"><img class="nossos-pacotes-cards-icone-x"
-                                    src="assets/imagens/x.png">Planejamento e criação da Identidade Visual da sua
-                                empresa</p>
-                            <p class="card-text nossos-pacotes-cards-texto"><img
-                                    class="nossos-pacotes-cards-icone-check" src="assets/imagens/check.png">Site
-                                completamente pensado e projetado de acordo com a sua necessidade</p>
-                            <p class="card-text nossos-pacotes-cards-texto"><img
-                                    class="nossos-pacotes-cards-icone-check" src="assets/imagens/check.png">Suporte
-                                grátis de 2 meses após a entrega do site para eventuais correções de bugs</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Pacote Business -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="nossos-pacotes-cards">
-                        <div class="card-body">
-
-                            <h3 class="card-title nossos-pacotes-cards-titulo">
-                                Pacote Business
-                            </h3>
-                            <p class="card-text nossos-pacotes-cards-valores">
-                                299,99/mês
-                            </p>
-                            <p class="card-text nossos-pacotes-cards-subtitulo">
-                                Em 10x no cartão de crédito
-                            </p>
-                            <a class="btn btn-dark" target="_blank"
-                                href="https://api.whatsapp.com/send/?phone=5545999792202&text=Ol%C3%A1%2C+estou+interessado+no+Pacote+Business%2C+poderia+me+passar+mais+informa%C3%A7%C3%B5es%3F&app_absent=0"
-                                role="button">Contratar</a>
-                            <p class="card-text nossos-pacotes-cards-texto"><img
-                                    class="nossos-pacotes-cards-icone-check" src="assets/imagens/check.png">1 Site
-                                Completo</p>
-                            <p class="card-text nossos-pacotes-cards-texto"><img
-                                    class="nossos-pacotes-cards-icone-check" src="assets/imagens/check.png">SEO do
+                                    class="nossos-pacotes-cards-icone-check" src="assets/imagens/green-check.png">SEO do
                                 Google: Seu Site na primeira página do Google</p>
                             <p class="card-text nossos-pacotes-cards-texto"><img
-                                    class="nossos-pacotes-cards-icone-check" src="assets/imagens/check.png">Criação de
+                                    class="nossos-pacotes-cards-icone-check" src="assets/imagens/green-check.png">Criação de
                                 Logo para sua empresa</p>
                             <p class="card-text nossos-pacotes-cards-texto"><img
-                                    class="nossos-pacotes-cards-icone-check" src="assets/imagens/check.png">Planejamento
+                                    class="nossos-pacotes-cards-icone-check" src="assets/imagens/green-check.png">Planejamento
                                 e criação da Identidade Visual da sua empresa</p>
                             <p class="card-text nossos-pacotes-cards-texto"><img
-                                    class="nossos-pacotes-cards-icone-check" src="assets/imagens/check.png">Site
+                                    class="nossos-pacotes-cards-icone-check" src="assets/imagens/green-check.png">Site
                                 completamente pensado e projetado de acordo com a sua necessidade</p>
                             <p id="link-contato" class="card-text nossos-pacotes-cards-texto"><img
-                                    class="nossos-pacotes-cards-icone-check" src="assets/imagens/check.png">Suporte
+                                    class="nossos-pacotes-cards-icone-check" src="assets/imagens/green-check.png">Suporte
                                 grátis de 2 meses após a entrega do site para eventuais correções de bugs</p>
                         </div>
                     </div>
@@ -374,10 +368,14 @@
         <div class="container email">
 
             <h2 class="email-titulo">
-                Gostaria de um pacote personalizado?
+                Gostaria de mais personalização?
                 <br>
-                Entre em contato e nos diga o que o seu site precisa ter e faremos
-                um orçamento personalizado.
+                Automatize as funções rotineiras de todos os processos que consomem um valioso tempo de trabalho, 
+                <br> 
+                dando a você mais tempo para se concentrar em seus clientes. 
+                <br>
+                Entre em contato para saber mais.
+
             </h2>
             <form class="row g-1" action="https://formsubmit.co/contatofgwebsites@gmail.com" method="POST">
                 <div class="col-md-12">
@@ -428,8 +426,8 @@
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="card-body">
                         <p class="card-text rodape-textos">
-                            <img class="rodape-icones" src="assets/imagens/email-icone.png">
-                            contatofgwebsites@gmail.com
+                            <img class="rodape-icones" src="assets/imagens/mail-icone.png" width="40px" height="40px">
+                            neuttroncrm@gmail.com
                         </p>
                     </div>
                 </div>
@@ -437,7 +435,7 @@
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="card-body">
                         <p class="card-text rodape-textos">
-                            <img class="rodape-icones" src="assets/imagens/telefone-icone.png">
+                            <img class="rodape-icones" src="assets/imagens/phone-icone.png" width="40px">
                             +55 (45) 9 9979 2202
                         </p>
                     </div>
@@ -446,8 +444,8 @@
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="card-body">
                         <p class="card-text rodape-textos">
-                            <img class="rodape-icones" src="assets/imagens/local-icone.png">
-                            Country - Cascavel, PR
+                            <img class="rodape-icones" src="assets/imagens/map-icone.png"width=40px>
+                            Cascavel, PR
                         </p>
                     </div>
                 </div>
