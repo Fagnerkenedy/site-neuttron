@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content=" Criação e Desenvolvimento de Sites em Cascavel - FG WebSites" />
+    <meta name="title" content="Neuttron" />
     <meta name="description"
         content="Empresa de Criação de Sites em Cascavel, especializada no Desenvolvimento de Sites Profissionais. Criação de sites profissionais pelo menor preço do mercado!">
     <!--Descrição que aparece na pesquisa do Google-->
     <meta name="Keywords"
         content="fg websites, fgwebsites, desenvolvimento de sites, desenvolvimento de sites em cascavel, criação de sites em cascavel, landing page em cascavel, one page em cascavel" />
-    <link rel="icon" type="imagem/png" href="assets/imagens/logo-fg.png" /> <!--Favicon-->
+    <link rel="icon" type="imagem/png" href="assets/imagens/atom.png" /> <!--Favicon-->
     <link rel="stylesheet" type="text/css" href="style.css" /> <!--Link Estilo CSS-->
     <link rel="canonical" href="https://fgwebsites.com" />
     <!-- Tag Canonical - (Serve para dizer ao google que essa é a pagina principal do site melhorando a posição nas pesquisas.) -->
@@ -22,7 +22,7 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
 
-    <title>Desenvolvimento de Sites em Cascavel - FG WebSites</title>
+    <title>Neuttron</title>
 
     <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
@@ -112,7 +112,7 @@
                 <div style="margin-left: auto;">
                     <nav id="nav">
                         <ul id="menu" role="menu">
-                            <li class="iniciar-sessao"><a href="http://crm.neuttron.com.br"
+                            <li class="iniciar-sessao"><a href="http://localhost:3000/login"
                                     class="cabecalho-menu-item">Iniciar sessão</a></li>
                         </ul>
                     </nav>
@@ -128,9 +128,15 @@
                     <p class="conteudo-inicio-paragrafo">Gerencie todos os processos da sua empresa, desde vendas até
                         contas a pagar, obtenha relatórios e visualize gráficos de forma personalizada de acordo com o
                         que a sua empresa precisa.</p>
-                    <a target="_blank" href="http://localhost:3000/cadastro">
-                        <button class="btn btn-dark">Comece sua avaliação gratuita</button>
-                    </a>
+                    
+                    <div class="buttons">
+                        <a href="http://localhost:3000/cadastro">
+                            <button class="btn btn-dark">Comece sua avaliação gratuita</button>
+                        </a>
+                        <a href="http://localhost:3000/login">
+                            <button class="btn btn-blue">Iniciar sessão</button>
+                        </a>
+                    </div>
                 </div>
             </div>
 
@@ -211,11 +217,11 @@
                             <p class="card-text nossos-pacotes-cards-texto"><img
                                     class="nossos-pacotes-cards-icone-check" src="assets/imagens/green-check.png">1
                                 usuário gratuito;</p>
-                            <p class="card-text nossos-pacotes-cards-texto"><img class="nossos-pacotes-cards-icone-x"
+                            <p class="card-text nossos-pacotes-cards-texto"><img class="nossos-pacotes-cards-icone-check"
                                     src="assets/imagens/green-check.png">Leads;</p>
-                            <p class="card-text nossos-pacotes-cards-texto"><img class="nossos-pacotes-cards-icone-x"
+                            <p class="card-text nossos-pacotes-cards-texto"><img class="nossos-pacotes-cards-icone-check"
                                     src="assets/imagens/green-check.png">Empresas;</p>
-                            <p class="card-text nossos-pacotes-cards-texto"><img class="nossos-pacotes-cards-icone-x"
+                            <p class="card-text nossos-pacotes-cards-texto"><img class="nossos-pacotes-cards-icone-check"
                                     src="assets/imagens/green-check.png">Contatos;</p>
                             <p class="card-text nossos-pacotes-cards-texto"><img
                                     class="nossos-pacotes-cards-icone-check"
@@ -259,14 +265,14 @@
                             <p class="card-text nossos-pacotes-cards-texto"><img
                                     class="nossos-pacotes-cards-icone-check"
                                     src="assets/imagens/green-check.png">Módulos personalizados</p>
-                            <p class="card-text nossos-pacotes-cards-texto"><img class="nossos-pacotes-cards-icone-x"
+                            <p class="card-text nossos-pacotes-cards-texto"><img class="nossos-pacotes-cards-icone-check"
                                     src="assets/imagens/green-check.png">10 módulos customizados</p>
-                            <p class="card-text nossos-pacotes-cards-texto"><img class="nossos-pacotes-cards-icone-x"
+                            <p class="card-text nossos-pacotes-cards-texto"><img class="nossos-pacotes-cards-icone-check"
                                     src="assets/imagens/green-check.png">Campos personalizados</p>
                             <p class="card-text nossos-pacotes-cards-texto"><img
                                     class="nossos-pacotes-cards-icone-check" src="assets/imagens/green-check.png">Perfil
                                 de usuários</p>
-                            <p class="card-text nossos-pacotes-cards-texto"><img
+                            <p id="link-contato" class="card-text nossos-pacotes-cards-texto"><img
                                     class="nossos-pacotes-cards-icone-check" src="assets/imagens/green-check.png">20
                                 horas grátis de consultoria e treinamento</p>
                         </div>
