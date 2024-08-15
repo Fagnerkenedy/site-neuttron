@@ -15,13 +15,14 @@ a {
 }
 
 a:hover {
-  background: rgba(0, 0, 0, 0.05);
+  background: none;
 }
-
-#logo {
-  font-size: 1.5rem;
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
+span{
+margin: 0;
+padding: 0;
+}
+.logo {
+width: 120px;
 }
 
 .n-logo {
@@ -29,6 +30,7 @@ a:hover {
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .euttron-logo {
@@ -36,6 +38,7 @@ a:hover {
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 #header {
@@ -203,7 +206,7 @@ h3{
 
 
 .background-inicio{
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(assets/imagens/img-background.jpg);
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(assets/imagens/backgroudSite.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: top;
@@ -239,12 +242,18 @@ h3{
         /* Nossos Serviços */
 
 .nossos-servicos-titulo {
-    padding-top: 90px;
+    padding-top: 50px;
     color: #f1f1f1;
     font-size: 45px;
     text-align: center;
 }
 .nossos-servicos-cards,
+.nossos-servicos-cards {
+    text-align: center;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    height: 150px;
+}
 .nossos-pacotes-cards {
     text-align: center;
     border-radius: 5px;
@@ -347,10 +356,13 @@ h3{
     width: 46px;
 }
 
-
+.buttons{
+    margin-top: 140px;
+}
 
 .buttons a{
     margin: 20px;
+    text-decoration: none;
 }
 
 .btn-dark{
