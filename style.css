@@ -212,6 +212,7 @@ h3{
 .conteudo-inicio{
     text-align: center;
     color: #f1f1f1;
+    width: 100vh;
 }
 .conteudo-inicio-titulo{
     font-size: 70px;
@@ -345,6 +346,13 @@ h3{
     padding-right: 10px;
     width: 46px;
 }
+
+
+
+.buttons a{
+    margin: 20px;
+}
+
 .btn-dark{
     background-color: #0b090a !important;
     font-size: 16px !important;
@@ -352,6 +360,14 @@ h3{
     font-family: 'Poppins', sans-serif;
 }
 
+.btn-blue{
+    width: 300px;
+    padding-left: 20px;
+    background-color: #F1F1F1 !important;
+    font-size: 16px !important;
+    margin-bottom: 40px !important;
+    font-family: 'Poppins', sans-serif;
+}
 
 
 

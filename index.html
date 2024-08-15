@@ -2,6 +2,15 @@
 <html lang="pt-BR">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BGL2F018TN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-BGL2F018TN');
+    </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -93,14 +102,10 @@
 
         <div class="row cabecalho"> <!--Cabeçalho-->
             <header id="header">
-
-                <span class="n-logo">
-                    N
-                </span>
-                <span class="euttron-logo">
-                    euttron
-                </span>
-
+                <a href="#" class="logo-link">
+                    <p class="n-logo">N</p>
+                    <p class="euttron-logo">euttron</p>
+                </a>
                 <nav id="nav">
                     <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
                         aria-expanded="false">
@@ -127,15 +132,22 @@
         <div class="container" id="link-inicio">
 
             <div class="row"> <!--Início-->
-                <div class="conteudo-inicio col-md-7">
+                <div class="conteudo-inicio col-md-12">
                     <h1 class="conteudo-inicio-titulo">Alcance resultados nunca antes imaginados</h1>
                     <p class="conteudo-inicio-paragrafo">Aumente suas vendas, alcance potenciais novos clientes e
                         obtenha o reconhecimento que a sua empresa merece.
                         Tenha um site de qualidade e que se adapta a qualquer tamanho de tela.</p>
-                    <a target="_blank"
-                        href="https://api.whatsapp.com/send/?phone=5545999792202&text=Ol%C3%A1%2C+tudo+bem%3F+Gostaria+de+pedir+um+or%C3%A7amento+sem+compromisso.&app_absent=0">
-                        <button class="btn btn-dark">Solicite um Orçamento</button>
-                    </a>
+                    <div class="buttons">
+                        <a target="_blank"
+                            href="https://api.whatsapp.com/send/?phone=5545999792202&text=Ol%C3%A1%2C+tudo+bem%3F+Gostaria+de+pedir+um+or%C3%A7amento+sem+compromisso.&app_absent=0">
+                            <button
+                                href="https://api.whatsapp.com/send/?phone=5545999792202&text=Ol%C3%A1%2C+tudo+bem%3F+Gostaria+de+pedir+um+or%C3%A7amento+sem+compromisso.&app_absent=0"
+                                class="btn btn-dark">Solicite um Orçamento</button>
+                        </a>
+                        <a href="http://localhost:3000/login">
+                            <button class="btn btn-blue">Iniciar sessão</button>
+                        </a>
+                    </div>
                 </div>
             </div>
 
