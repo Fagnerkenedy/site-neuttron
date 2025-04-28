@@ -210,8 +210,6 @@ h3{
     background-repeat: no-repeat;
     background-size:cover;
     background-position: top;
-    width: 100vw;
-
 }
 .conteudo-inicio{
     text-align: center;
@@ -306,6 +304,8 @@ h3{
     margin-right: 12px;
     height: 19px;
     margin-top: 5px;
+    color: #1666d8;
+
 }
 .nossos-pacotes-cards-icone-x{
     margin-left: 3px;
@@ -367,6 +367,7 @@ h3{
 }
 
 .btn-dark{
+    width: 300px;
     background-color: #0b090a !important;
     font-size: 16px !important;
     margin-bottom: 40px !important;
