@@ -44,7 +44,7 @@ width: 120px;
 #header {
   box-sizing: border-box;
   height: 40px;
- padding: 1rem;  
+  padding: 1rem;  
   display: flex;
   align-items: center;
   background: none;
